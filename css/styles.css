@@ -1,0 +1,102 @@
+.image_profile img {
+    width: 150px;           /* Ancho de la imagen */
+    height: 150px;          /* Altura de la imagen (igual al ancho para ser un círculo) */
+    border-radius: 100%;     /* Hace que los bordes sean redondeados */
+    object-fit: cover;      /* Ajusta la imagen para que encaje sin deformarse *//* (Opcional) Borde para destacar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* (Opcional) Sombra para un mejor efecto */
+    background-color: white;
+}
+.image_profile {
+    margin-top: 20px;   /* Añade un margen superior al contenedor */
+    display: flex;               /* Habilita el uso de flexbox */
+    flex-direction: column;      /* Organiza los elementos de arriba hacia abajo */
+    align-items: center;         /* Centra los elementos en el eje horizontal */
+    height: 270px;
+    margin-bottom: 20px;
+}
+.image_profile h1 {
+    font-size: 1.5rem; /* Tamaño del título */
+    margin-bottom: 10px; /* Espacio entre el título y la imagen */
+    color: #ffffff;       /* Color del texto */
+    font-family: Arial, sans-serif; /* Fuente del título */
+}
+
+/* Estilo de la barra de estado */
+.status-bar {
+    width: 200px;
+    height: 10px;         /* Altura de la barra */
+    background-color: #ddd;  /* Color de fondo de la barra */
+    margin-top: 15px;     /* Espacio entre la imagen y la barra */
+    border-radius: 5px;   /* Bordes redondeados */
+    text-align: center;
+}
+
+
+/* Estilo del progreso (el color de la barra de vida) */
+.progress {
+    height: 100%;
+    background-color: #686868; /* Verde para representar la vida */
+    border-radius: 5px;  /* Asegura que el borde sea redondeado */
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color:cadetblue;
+    font-family: "Trebuchet MS"
+}
+
+.proyecto img{
+    background-color: #ffffff;
+    width: 150px;           /* Ancho de la imagen */
+    height: 150px;          /* Altura de la imagen (igual al ancho para ser un círculo) */
+    border-radius: 100%;     /* Hace que los bordes sean redondeados */
+    object-fit: cover;      /* Ajusta la imagen para que encaje sin deformarse */ /* (Opcional) Borde para destacar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* (Opcional) Sombra para un mejor efecto */
+}
+.proyecto {
+    display: flex;             /* Activa Flexbox dentro de cada proyecto */
+    flex-direction: column;    /* Organiza los elementos del proyecto en columna */
+    align-items: center;       /* Centra los elementos horizontalmente */
+    border-radius: 3%;         /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    padding: 20px;             /* Espaciado interno */
+    width: 420px;              /* Ancho fijo de cada proyecto */
+    background-color: #f4f4f9;
+    margin: 10px;
+}
+
+.content-box{
+    border-radius: 3%;
+    background-color: #ffffff;
+    padding: 15px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.current {
+    text-align: center;
+    color: #f4f4f9;
+    background-color: black;
+    padding: 1%;
+}
+.johan img{
+    width: 150px;           /* Ancho de la imagen */
+    height: 150px;          /* Altura de la imagen (igual al ancho para ser un círculo) */
+    border-radius: 100%;     /* Hace que los bordes sean redondeados */
+    object-fit: cover;      /* Ajusta la imagen para que encaje sin deformarse *//* (Opcional) Borde para destacar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* (Opcional) Sombra para un mejor efecto */
+    background-color: white;
+    margin: 10px;
+}
+.johan{
+    display:flex;
+    background-color: #ddd;
+    padding: 1%;
+    text-align: left;
+    margin: 10px;
+    align-items: center;  
+}
